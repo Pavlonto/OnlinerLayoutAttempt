@@ -32,6 +32,11 @@ body {
     height: 50px;
     border-top: 1px solid rgb(216, 216, 216);
 }
+.footer {
+    background-color: #3e4753;
+    display: flex;
+    flex-direction: column;
+}
 
 .sidebar-item {
     align-self: center;
@@ -165,13 +170,20 @@ body {
 
 .prime {
     display: flex;
-}
+    color: rgb(122, 134, 53);
+    cursor: pointer;
+    transition: .2s;
+} .prime:hover {
+    text-decoration: underline;
+    opacity: 0.75;
+  }
 .prime-image {
-    width: 100px;
+    width: 88px;
+    height: 42px;
 }
 .prime-text {
     align-self: center;
-    color: rgb(122, 134, 53);
+
     font-size: 13px;
     font-weight: 600;
     margin-left: 10px;
@@ -184,27 +196,101 @@ body {
 .nav-down-text {
     color: rgb(0, 77, 153);
     font-size: 13px;
-}
+    cursor: pointer;
+} .nav-down-text:hover {
+    text-decoration: underline;
+      color: rgb(0, 102, 204)
+  }
 
 .content {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
 }
-
 .content-item {
+    background: #fff;
+    transition: .15s;
+} .content-item:hover {
+    opacity: 0.9;
+  }
+.content-item img {
+    width:352px;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+    opacity: 1;
+    transition: opacity 124ms linear, transform 124ms linear;
+    display: block;
+    cursor: pointer;
 }
-
 
 .text-content {
     font-size: 15px;
     color: white;
     position: absolute;
-    top: 200px;
-    margin-left: 10px;
     font-weight: bold;
+    width: 300px;
+    margin: 20px 0 0 15px;
+    cursor: pointer;
 }
 .text-content-weight {
     font-size: 25px;
     font-weight: 400;
+}
+
+.footer-text {
+    display: flex;
+    margin: 20px 0 0 20px;
+}
+
+.footer-text-item {
+    color: white;
+    font-size: 13px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: .2s;
+} .footer-text-item:hover {
+      color: rgb(204, 204, 204);
+      text-decoration: underline;
+  }
+
+.footer-image {
+    display: flex;
+    align-self: end;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 40px;
+}  .footer-image-text {
+    color: rgb(107, 115, 127);
+    font-size: 13px;
+}  .footer-image img {
+    width: 65px;
+}
+
+.social-network-image {
+    display: flex;
+    position: absolute;
+    padding: 50px 30px 30px 30px;
+    width: 30px;
+    height: 30px;
+}
+
+.yellow {
+    color: rgb(255, 218, 80);
+} .yellow:hover {
+      color: rgb(255, 163, 53);
+  }
+
+.item-image-footer {
+    background-color: #28313c;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: .2s;
+} .item-image-footer:hover {
+    background-color: black;
+  }
+
+.social-network-image img {
+    width: 30px;
+    height: 30px;
 }
