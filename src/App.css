@@ -1,0 +1,210 @@
+body {
+    background-color: #f6f6f6;
+}
+.all {
+    width: 63%;
+    margin: 0 auto 0 auto;
+}
+
+.header {
+    display: flex;
+}
+.sidebar {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    background-color: rgb(253, 221, 35);
+    padding: 12px;
+    font-weight: 600;
+    font-size: 14px;
+}
+.nav-up {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+.nav-down {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    height: 50px;
+    border-top: 1px solid rgb(216, 216, 216);
+}
+
+.sidebar-item {
+    align-self: center;
+    cursor: pointer;
+}  .sidebar-item:hover {
+    text-decoration: underline;
+}
+
+.header-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #f1eeef;
+    width: 50%;
+    font-size: 14px;
+}
+.header-age {
+    display: flex;
+    background-color: #e6e3e4;
+    color: gray;
+    font-size: 14px;
+    padding: 2px;
+}
+.header-item {
+    cursor: pointer;
+}  .header-item:hover {
+    text-decoration: underline;
+}
+
+.img-sidebar {
+    width: 17px;
+    padding-right: 3px;
+}
+.img-header {
+    width: 25px;
+    padding: 0 10px 0 15px;
+
+}
+
+.green {
+    color: green;
+}
+.gray {
+    color: gray;
+}
+
+.logo {
+    height: 45px;
+    cursor: pointer;
+}
+
+.search-input {
+    width: 700px;
+    padding: 10px 10px 10px 30px;
+    background: url(https://gc.onliner.by/images/i-search.svg) no-repeat scroll 7px 7px white;
+    border: 1px solid silver;
+    border-radius: 3px;
+    text-decoration: none;
+    transition: 0.2s;
+    outline: none;
+}  .search-input:hover {
+    border: 1px solid gray;
+}  .search-input:focus {
+    border: 1px solid gray;
+}
+
+.entry-button {
+    color: darkgrey;
+    width: 110px;
+    height: 40px;
+    border: 1px solid silver;
+    border-radius: 3px;
+    background-color: white;
+    transition: 0.2s;
+    cursor: pointer;
+}  .entry-button:hover {
+    color: black;
+    border: 1px solid gray;
+}  .entry-button:active{
+    background-color: #f1eeef;
+    transition: none;
+}
+
+.header-image-button {
+    width: 40px;
+    height: 40px;
+    border: 1px solid silver;
+    border-radius: 3px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.fb{
+    background: url("https://gc.onliner.by/images/i-fb-gray-alter.svg") white no-repeat 16px 12px;
+}  .fb:hover {
+       border: 1px solid gray;
+       background: url("https://gc.onliner.by/images/i-fb-blue.svg") white no-repeat 16px 12px;
+   } .fb:active {
+           background-color: #f1eeef;
+           transition: none;
+       }
+.vk {
+    background: url("https://gc.onliner.by/images/i-vk-gray-alter.svg") white no-repeat 10px 14px;
+}  .vk:hover {
+       border: 1px solid gray;
+       background: url("https://gc.onliner.by/images/i-vk-blue.svg") white no-repeat 10px 14px;
+  } .vk:active {
+          background-color: #f1eeef;
+          transition: none;
+      }
+.gg {
+    background: url("https://gc.onliner.by/images/i-gg-gray-alter.svg") white no-repeat 12px 13px;
+}  .gg:hover {
+      border: 1px solid gray;
+      background: url("https://gc.onliner.by/images/i-gg-red.svg") white no-repeat 12px 13px;
+  }  .gg:active {
+      background-color: #f1eeef;
+      transition: none;
+  }
+.cart {
+    opacity: .5;
+    background: url("https://gc.onliner.by/images/i-cart-black-stroke.svg") white no-repeat 8px 9px;
+    border: 1px solid rgba(144, 144, 144, 1);
+}  .cart:hover {
+    opacity: 1;
+    border: 1px solid gray;
+    background: url("https://gc.onliner.by/images/i-cart-black-stroke.svg") white no-repeat 8px 9px;
+   }  .cart:active {
+    background-color: #f1eeef;
+    transition: none;
+}
+
+.prime {
+    display: flex;
+}
+.prime-image {
+    width: 100px;
+}
+.prime-text {
+    align-self: center;
+    color: rgb(122, 134, 53);
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.symbol {
+    color: rgb(216, 216, 216);
+}
+
+.nav-down-text {
+    color: rgb(0, 77, 153);
+    font-size: 13px;
+}
+
+.content {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.content-item {
+}
+
+
+.text-content {
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    top: 200px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.text-content-weight {
+    font-size: 25px;
+    font-weight: 400;
+}
