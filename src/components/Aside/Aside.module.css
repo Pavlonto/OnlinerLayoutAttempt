@@ -1,0 +1,25 @@
+.sidebar {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    background-color: rgb(253, 221, 35);
+    padding: 12px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.sidebar_item {
+    align-self: center;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.sidebar_item:hover {
+    text-decoration: underline;
+}
+
+.sidebar_image {
+    width: 17px;
+    padding-right: 3px;
+}
