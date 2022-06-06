@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/OnlinerLayoutAttempt/static/css/main.08dfcdf3.css",
+    "main.js": "/OnlinerLayoutAttempt/static/js/main.699fefe3.js",
+    "static/js/787.97f5cb8b.chunk.js": "/OnlinerLayoutAttempt/static/js/787.97f5cb8b.chunk.js",
+    "index.html": "/OnlinerLayoutAttempt/index.html",
+    "main.08dfcdf3.css.map": "/OnlinerLayoutAttempt/static/css/main.08dfcdf3.css.map",
+    "main.699fefe3.js.map": "/OnlinerLayoutAttempt/static/js/main.699fefe3.js.map",
+    "787.97f5cb8b.chunk.js.map": "/OnlinerLayoutAttempt/static/js/787.97f5cb8b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.08dfcdf3.css",
+    "static/js/main.699fefe3.js"
+  ]
+}
